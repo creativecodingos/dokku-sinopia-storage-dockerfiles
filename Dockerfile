@@ -10,6 +10,6 @@ RUN chown -R sinopia:sinopia /data/sinopia
 
 USER sinopia
 
-VOLUME /data/sinopia
+VOLUME /data
 
 CMD ["/bin/bash"]
